@@ -26,13 +26,15 @@ function startGame() {
   questions.classList.remove("hidden");
 }
 
-var questions = [
-  {
-    question: "What is a boolean?",
-    choices: ["a string", "multiple choice", "two values"],
-    answer: "two values",
-  },
-  {
-    question: "",
-  },
-];
+// var questions = [
+//   {
+//     question: "What is a boolean?",
+//     choices: ["a string", "multiple choice", "two values"],
+//     answer: "two values",
+//   },
+//   {
+//     question: "Who is known as the 'Dark Lord'?",
+//     choices: ["Ron", "Voldermort", "Harry"],
+//     answer: "Voldermort",
+//   },
+// ];
