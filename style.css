@@ -1,3 +1,45 @@
+:root {
+  text-align: center;
+}
+
 .hidden {
   display: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
+  text-align: center;
+}
+
+/* question start */
+ul {
+  display: flex;
+  background-color: burlywood;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+ul:hover {
+  background-color: blueviolet;
+}
+/* question end*/
+
+.highscores {
+  display: flex;
+  text-decoration: none;
+  font-weight: bold;
+  color: #7e21a3;
 }
