@@ -14,7 +14,7 @@ Need or want to test your knowledge of JavaScript. Well look no futher, on this 
 
 placeholder
 
-## Screenholder
+## Screenshot
 
 placeholder
 
