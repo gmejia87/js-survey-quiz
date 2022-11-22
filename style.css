@@ -19,7 +19,22 @@ header {
 }
 
 /* question start */
-ul {
+.question {
+  display: flex;
+  background-color: gray;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.btn1,
+.btn2,
+.btn3 {
   display: flex;
   background-color: burlywood;
   border: none;
@@ -32,7 +47,9 @@ ul {
   margin-top: 5px;
 }
 
-ul:hover {
+.btn1:hover,
+.btn2:hover,
+.btn3:hover {
   background-color: blueviolet;
 }
 /* question end*/
