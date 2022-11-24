@@ -12,11 +12,12 @@ Need or want to test your knowledge of JavaScript. Well look no futher, on this 
 
 ## Website
 
-placeholder
+[JS-Survey-Quiz](https://gmejia87.github.io/js-survey-quiz/)
 
 ## Screenshot
 
-placeholder
+![JS-quiz screenshot](https://user-images.githubusercontent.com/108241017/203702832-df3ac9e1-b5c1-4053-986f-3270e8ac9b45.png)
+
 
 ## Contribution
 
