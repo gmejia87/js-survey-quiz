@@ -2,7 +2,10 @@ var countDown = 30;
 var startBtn = document.getElementById("start-btn");
 var timer = document.querySelector(".timer");
 var questions = document.querySelector(".questions");
-var listChoices = document.querySelector(".questions button");
+var listChoices = document.querySelector(".btn1, .btn2, .btn3");
+// var choice1 = document.querySelector(".btn1");
+// var choice2 = document.querySelector(".btn2");
+// var choice3 = document.querySelector(".btn3");
 
 var count = 0;
 var pageContentEl = function (element) {
@@ -38,10 +41,23 @@ function startGame() {
 //show questions on screen
 const showQuestions = function () {
   pageContentEl(".question").innerHTML = quizQuestions[count].question;
-  pageContentEl(".btn1").innerHTML = `1: ${quizQuestions[count].choices[0]}`;
-  pageContentEl(".btn2").innerHTML = `2: ${quizQuestions[count].choices[1]}`;
-  pageContentEl(".btn3").innerHTML = `3: ${quizQuestions[count].choices[2]}`;
+  pageContentEl(".btn1").innerHTML = `${quizQuestions[count].choices[0]}`;
+  pageContentEl(".btn2").innerHTML = `${quizQuestions[count].choices[1]}`;
+  pageContentEl(".btn3").innerHTML = `${quizQuestions[count].choices[2]}`;
 };
+
+Array.from(listChoices).forEach(() => {
+  check.addEventListener("click", scoreTimeAdjust);
+});
+
+//button listener
+// function eventHandler(event) {
+//   var choice1 = document.querySelector(".btn1");
+//   var choice2 = document.querySelector(".btn2");
+//   var choice3 = document.querySelector(".btn3");
+//   if (choice1.textContent === quizQuestions[choices].answer) {
+//   }
+// }
 
 //questions for quiz
 var quizQuestions = [
